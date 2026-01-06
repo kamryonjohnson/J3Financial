@@ -1,4 +1,4 @@
-import { Shield, TrendingUp, Users, Zap, BadgeCheck, FileCheck } from 'lucide-react';
+import { Shield, TrendingUp, Users, Zap } from 'lucide-react';
 
 const trustItems = [
   {
@@ -8,23 +8,13 @@ const trustItems = [
   },
   {
     icon: TrendingUp,
-    title: 'Advance Loans Up to $6,000',
+    title: 'Advance Loans Up to $5,000',
     description: 'Get your money fast with our refund advance program',
   },
   {
-    icon: BadgeCheck,
-    title: 'Authorized IRS e-file Provider',
-    description: 'Officially certified to electronically file your tax returns',
-  },
-  {
-    icon: FileCheck,
-    title: '90% Return Rate',
-    description: 'Industry-leading client satisfaction and loyalty',
-  },
-  {
-    icon: Shield,
-    title: 'Audit Protection',
-    description: 'Quality service with comprehensive audit defense support',
+    icon: Users,
+    title: 'Knowledgeable & Friendly Staff',
+    description: 'Our expert team makes tax filing stress-free and simple',
   },
   {
     icon: Zap,
@@ -46,7 +36,7 @@ export default function TrustSection() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {trustItems.map((item, index) => (
             <div
               key={index}
@@ -55,7 +45,7 @@ export default function TrustSection() {
                 animation: `fadeIn 0.6s ease-out ${index * 0.1}s both`,
               }}
             >
-              <div className="w-14 h-14 rounded-xl gradient-accent flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 rounded-xl gradient-secondary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                 <item.icon className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">

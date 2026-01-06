@@ -5,9 +5,9 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-secondary">
+      <div className="absolute inset-0 gradient-primary">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1920&q=80')] bg-cover bg-center opacity-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/50 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/50 to-primary"></div>
       </div>
       
       {/* Content */}
@@ -25,14 +25,14 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto animate-fadeIn">
-            Advance loans up to $6,000 • 9 years of experience • Authorized IRS e-file Provider
+            Advance loans up to $5,000 • 9 years of experience • Knowledgeable staff
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
             <Button 
               size="lg"
               asChild
-              className="gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold text-lg px-8"
+              className="gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold text-lg px-8"
             >
               <a href="#contact" className="flex items-center gap-2">
                 Get Started
@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fadeIn">
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
               <DollarSign className="w-8 h-8 text-accent mx-auto mb-3" />
-              <div className="text-2xl font-heading font-bold text-white mb-1">$6,000</div>
+              <div className="text-2xl font-heading font-bold text-white mb-1">$5,000</div>
               <div className="text-sm text-white/70">Advance Loans</div>
             </div>
             

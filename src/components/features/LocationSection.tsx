@@ -18,7 +18,7 @@ export default function LocationSection() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="bg-card rounded-2xl p-8 border border-border">
               <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -36,7 +36,7 @@ export default function LocationSection() {
                   <div className="text-sm font-semibold text-muted-foreground mb-1">Address</div>
                   <div className="text-lg text-foreground">
                     5901 E Lancaster Suite 101<br />
-                    Fort Worth, TX 76112
+                    Fort Worth, TX
                   </div>
                 </div>
                 
@@ -51,7 +51,7 @@ export default function LocationSection() {
               <Button 
                 size="lg"
                 asChild
-                className="w-full mt-6 gradient-accent text-white hover:opacity-90 transition-opacity"
+                className="w-full mt-6 gradient-secondary text-white hover:opacity-90 transition-opacity"
               >
                 <a 
                   href="https://www.google.com/maps/search/?api=1&query=5901+E+Lancaster+Suite+101,+Fort+Worth,+TX" 

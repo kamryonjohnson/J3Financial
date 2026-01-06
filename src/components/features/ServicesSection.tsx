@@ -10,14 +10,14 @@ const services = [
   {
     icon: DollarSign,
     title: 'Refund Advances',
-    description: 'Get up to $6,000 before your refund arrives - fast and hassle-free',
+    description: 'Get up to $5,000 before your refund arrives - fast and hassle-free',
     features: ['Quick Approval', 'Same Day Funding', 'No Hidden Fees'],
   },
   {
     icon: Lock,
     title: 'Accurate & Secure Filing',
     description: 'Bank-level security with guaranteed accuracy on every tax return',
-    features: ['Authorized IRS E-File', 'Data Encryption', 'Audit Protection'],
+    features: ['IRS E-File', 'Data Encryption', 'Accuracy Guarantee'],
   },
   {
     icon: UserCheck,
@@ -50,7 +50,7 @@ export default function ServicesSection() {
               }}
             >
               <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                   <service.icon className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -66,7 +66,7 @@ export default function ServicesSection() {
               <div className="space-y-2 ml-16">
                 {service.features.map((feature, idx) => (
                   <div key={idx} className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
+                    <div className="w-1.5 h-1.5 rounded-full bg-secondary"></div>
                     <span className="text-sm text-muted-foreground">{feature}</span>
                   </div>
                 ))}

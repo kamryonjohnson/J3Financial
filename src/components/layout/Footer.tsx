@@ -1,4 +1,4 @@
-import { MapPin, Phone, Shield, Mail } from 'lucide-react';
+import { MapPin, Phone, Shield } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,12 +8,16 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="mb-4">
-              <img 
-                src="https://cdn-ai.onspace.ai/onspace/files/8QFfpTsoiM4AuZUYf8yXZq/unnamed__1_-removebg-preview_(1).png" 
-                alt="J3 Financial Logo" 
-                className="h-16 w-auto brightness-0 invert"
-              />
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-10 h-10 rounded-lg gradient-secondary flex items-center justify-center text-white font-heading font-bold text-xl">
+                J3
+              </div>
+              <div>
+                <h3 className="font-heading font-bold text-lg leading-none">
+                  J3 Financial
+                </h3>
+                <p className="text-xs text-white/70">Tax Service</p>
+              </div>
             </div>
             <p className="text-white/70 text-sm">
               Serving Fort Worth with integrity and experience since 2015.
@@ -30,19 +34,12 @@ export default function Footer() {
                 <Phone className="w-4 h-4" />
                 (817) 781-6563
               </a>
-              <a
-                href="mailto:fortworthlonghorns@yahoo.com"
-                className="flex items-center gap-2 text-white/70 hover:text-white transition-colors break-all"
-              >
-                <Mail className="w-4 h-4 flex-shrink-0" />
-                fortworthlonghorns@yahoo.com
-              </a>
               <div className="flex items-start gap-2 text-white/70">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span>
                   5901 E Lancaster Suite 101
                   <br />
-                  Fort Worth, TX 76112
+                  Fort Worth, TX
                 </span>
               </div>
             </div>
@@ -66,10 +63,7 @@ export default function Footer() {
               © {currentYear} J3 Financial Tax Service. All rights reserved.
             </p>
             <p className="mt-2">
-              Rory Johnson, Owner • Authorized IRS e-file Provider
-            </p>
-            <p className="mt-1">
-              Mon-Sat: 10AM-9PM • Sunday: By Appointment Only
+              Conveniently located just off Highway 820 and Lancaster
             </p>
           </div>
         </div>

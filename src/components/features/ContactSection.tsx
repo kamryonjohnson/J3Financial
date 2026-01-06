@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, Send, Clock } from 'lucide-react';
+import { Phone, Mail, Send } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Textarea } from '../ui/textarea';
@@ -62,7 +62,7 @@ export default function ContactSection() {
                     href="tel:8177816563"
                     className="flex items-center gap-4 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors group"
                   >
-                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -73,38 +73,25 @@ export default function ContactSection() {
                     </div>
                   </a>
 
-                  <a
-                    href="mailto:fortworthlonghorns@yahoo.com"
-                    className="flex items-center gap-4 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors group"
-                  >
-                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center group-hover:scale-110 transition-transform">
+                  <div className="flex items-center gap-4 p-4 rounded-xl bg-muted/50">
+                    <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-sm text-muted-foreground">Email</div>
-                      <div className="text-sm font-semibold text-foreground break-all">
-                        fortworthlonghorns@yahoo.com
+                      <div className="text-sm text-muted-foreground">
+                        Address
                       </div>
-                    </div>
-                  </a>
-
-                  <div className="flex items-center gap-4 p-4 rounded-xl bg-muted/50">
-                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center">
-                      <Clock className="w-6 h-6 text-white" />
-                    </div>
-                    <div>
-                      <div className="text-sm text-muted-foreground">Hours</div>
                       <div className="text-sm font-semibold text-foreground">
-                        Mon-Sat: 10AM - 9PM
+                        5901 E Lancaster Suite 101
                         <br />
-                        Sunday: By Appointment
+                        Fort Worth, TX
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl text-white">
+              <div className="bg-gradient-to-br from-secondary to-accent p-8 rounded-2xl text-white">
                 <h3 className="text-2xl font-heading font-bold mb-3">
                   Walk-Ins Welcome!
                 </h3>
@@ -203,7 +190,7 @@ export default function ContactSection() {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold"
+                    className="w-full gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold"
                   >
                     {isSubmitting ? (
                       'Sending...'
