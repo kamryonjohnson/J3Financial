@@ -45,7 +45,7 @@ export default function TrustSection() {
                 animation: `fadeIn 0.6s ease-out ${index * 0.1}s both`,
               }}
             >
-              <div className="w-14 h-14 rounded-xl gradient-secondary flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-14 h-14 rounded-xl gradient-accent flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                 <item.icon className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">

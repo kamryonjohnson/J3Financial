@@ -14,7 +14,7 @@ export default function RefundAdvanceSection() {
   return (
     <section className="py-20 bg-background relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute top-0 right-0 w-1/2 h-full gradient-secondary opacity-5 blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-secondary to-transparent opacity-10 blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-5xl mx-auto">
@@ -60,7 +60,7 @@ export default function RefundAdvanceSection() {
                       animation: `slideIn 0.6s ease-out ${index * 0.1}s both`,
                     }}
                   >
-                    <CheckCircle2 className="w-6 h-6 text-secondary flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-foreground">{benefit}</span>
                   </div>
                 ))}

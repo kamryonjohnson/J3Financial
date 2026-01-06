@@ -5,9 +5,9 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background gradient */}
-      <div className="absolute inset-0 gradient-primary">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-secondary">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1920&q=80')] bg-cover bg-center opacity-10"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/50 to-primary"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/50 to-background"></div>
       </div>
       
       {/* Content */}

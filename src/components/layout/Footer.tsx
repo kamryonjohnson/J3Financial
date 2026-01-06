@@ -8,16 +8,12 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg gradient-secondary flex items-center justify-center text-white font-heading font-bold text-xl">
-                J3
-              </div>
-              <div>
-                <h3 className="font-heading font-bold text-lg leading-none">
-                  J3 Financial
-                </h3>
-                <p className="text-xs text-white/70">Tax Service</p>
-              </div>
+            <div className="mb-4">
+              <img 
+                src="https://cdn-ai.onspace.ai/onspace/files/8QFfpTsoiM4AuZUYf8yXZq/unnamed__1_-removebg-preview_(1).png" 
+                alt="J3 Financial Logo" 
+                className="h-16 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-white/70 text-sm">
               Serving Fort Worth with integrity and experience since 2015.

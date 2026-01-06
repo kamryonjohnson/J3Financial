@@ -62,7 +62,7 @@ export default function ContactSection() {
                     href="tel:8177816563"
                     className="flex items-center gap-4 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors group"
                   >
-                    <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -74,7 +74,7 @@ export default function ContactSection() {
                   </a>
 
                   <div className="flex items-center gap-4 p-4 rounded-xl bg-muted/50">
-                    <div className="w-12 h-12 rounded-lg gradient-secondary flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -91,7 +91,7 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-secondary to-accent p-8 rounded-2xl text-white">
+              <div className="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl text-white">
                 <h3 className="text-2xl font-heading font-bold mb-3">
                   Walk-Ins Welcome!
                 </h3>
