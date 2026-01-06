@@ -3,7 +3,7 @@ import { Shield, TrendingUp, Users, Zap, BadgeCheck, FileCheck } from 'lucide-re
 const trustItems = [
   {
     icon: Shield,
-    title: '15 Years of Experience',
+    title: '9 Years of Experience',
     description: 'Proven track record of reliable tax preparation and expert financial guidance',
   },
   {

@@ -15,7 +15,7 @@ export default function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-accent/20 text-accent px-4 py-2 rounded-full mb-6 animate-fadeIn">
             <Shield className="w-4 h-4" />
-            <span className="text-sm font-medium">15 Years of Trusted Service</span>
+            <span className="text-sm font-medium">9 Years of Trusted Service</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 animate-fadeIn leading-tight">
@@ -25,7 +25,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto animate-fadeIn">
-            Advance loans up to $6,000 • 15 years of experience • Authorized IRS e-file Provider
+            Advance loans up to $6,000 • 9 years of experience • Authorized IRS e-file Provider
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
@@ -60,7 +60,7 @@ export default function HeroSection() {
             
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
               <Shield className="w-8 h-8 text-accent mx-auto mb-3" />
-              <div className="text-2xl font-heading font-bold text-white mb-1">15 Years</div>
+              <div className="text-2xl font-heading font-bold text-white mb-1">9 Years</div>
               <div className="text-sm text-white/70">Of Experience</div>
             </div>
             
