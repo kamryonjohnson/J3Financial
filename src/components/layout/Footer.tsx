@@ -1,4 +1,4 @@
-import { MapPin, Phone, Shield } from 'lucide-react';
+import { MapPin, Phone, Shield, Mail } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -30,12 +30,19 @@ export default function Footer() {
                 <Phone className="w-4 h-4" />
                 (817) 781-6563
               </a>
+              <a
+                href="mailto:fortworthlonghorns@yahoo.com"
+                className="flex items-center gap-2 text-white/70 hover:text-white transition-colors break-all"
+              >
+                <Mail className="w-4 h-4 flex-shrink-0" />
+                fortworthlonghorns@yahoo.com
+              </a>
               <div className="flex items-start gap-2 text-white/70">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span>
                   5901 E Lancaster Suite 101
                   <br />
-                  Fort Worth, TX
+                  Fort Worth, TX 76112
                 </span>
               </div>
             </div>
@@ -59,7 +66,10 @@ export default function Footer() {
               © {currentYear} J3 Financial Tax Service. All rights reserved.
             </p>
             <p className="mt-2">
-              Conveniently located just off Highway 820 and Lancaster
+              Rory Johnson, Owner • Authorized IRS e-file Provider
+            </p>
+            <p className="mt-1">
+              Mon-Sat: 10AM-9PM • Sunday: By Appointment Only
             </p>
           </div>
         </div>

@@ -25,14 +25,14 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto animate-fadeIn">
-            Advance loans up to $5,000 • 9 years of experience • Knowledgeable staff
+            Advance loans up to $6,000 • 9 years of experience • Authorized IRS e-file Provider
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fadeIn">
             <Button 
               size="lg"
               asChild
-              className="gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold text-lg px-8"
+              className="gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold text-lg px-8"
             >
               <a href="#contact" className="flex items-center gap-2">
                 Get Started
@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fadeIn">
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
               <DollarSign className="w-8 h-8 text-accent mx-auto mb-3" />
-              <div className="text-2xl font-heading font-bold text-white mb-1">$5,000</div>
+              <div className="text-2xl font-heading font-bold text-white mb-1">$6,000</div>
               <div className="text-sm text-white/70">Advance Loans</div>
             </div>
             

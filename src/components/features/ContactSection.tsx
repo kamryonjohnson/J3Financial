@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Phone, Mail, Send } from 'lucide-react';
+import { Phone, Mail, Send, Clock } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Textarea } from '../ui/textarea';
@@ -73,18 +73,31 @@ export default function ContactSection() {
                     </div>
                   </a>
 
-                  <div className="flex items-center gap-4 p-4 rounded-xl bg-muted/50">
-                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center">
+                  <a
+                    href="mailto:fortworthlonghorns@yahoo.com"
+                    className="flex items-center gap-4 p-4 rounded-xl bg-muted/50 hover:bg-muted transition-colors group"
+                  >
+                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <div className="text-sm text-muted-foreground">
-                        Address
+                      <div className="text-sm text-muted-foreground">Email</div>
+                      <div className="text-sm font-semibold text-foreground break-all">
+                        fortworthlonghorns@yahoo.com
                       </div>
+                    </div>
+                  </a>
+
+                  <div className="flex items-center gap-4 p-4 rounded-xl bg-muted/50">
+                    <div className="w-12 h-12 rounded-lg gradient-accent flex items-center justify-center">
+                      <Clock className="w-6 h-6 text-white" />
+                    </div>
+                    <div>
+                      <div className="text-sm text-muted-foreground">Hours</div>
                       <div className="text-sm font-semibold text-foreground">
-                        5901 E Lancaster Suite 101
+                        Mon-Sat: 10AM - 9PM
                         <br />
-                        Fort Worth, TX
+                        Sunday: By Appointment
                       </div>
                     </div>
                   </div>
@@ -190,7 +203,7 @@ export default function ContactSection() {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold"
+                    className="w-full gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold"
                   >
                     {isSubmitting ? (
                       'Sending...'

@@ -2,7 +2,7 @@ import { DollarSign, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { Button } from '../ui/button';
 
 const benefits = [
-  'Get up to $5,000 in advance',
+  'Get up to $6,000 in advance',
   'Fast approval process',
   'No credit check required',
   'Same-day funding available',
@@ -26,7 +26,7 @@ export default function RefundAdvanceSection() {
               </div>
               
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
-                Get Up to <span className="text-gradient">$5,000</span><br />
+                Get Up to <span className="text-gradient">$6,000</span><br />
                 Before Your Refund Arrives
               </h2>
               
@@ -37,7 +37,7 @@ export default function RefundAdvanceSection() {
               <Button 
                 size="lg"
                 asChild
-                className="gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold"
+                className="gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold"
               >
                 <a href="#contact" className="flex items-center gap-2">
                   Check Eligibility

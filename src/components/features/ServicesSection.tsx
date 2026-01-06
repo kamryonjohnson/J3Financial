@@ -10,14 +10,14 @@ const services = [
   {
     icon: DollarSign,
     title: 'Refund Advances',
-    description: 'Get up to $5,000 before your refund arrives - fast and hassle-free',
+    description: 'Get up to $6,000 before your refund arrives - fast and hassle-free',
     features: ['Quick Approval', 'Same Day Funding', 'No Hidden Fees'],
   },
   {
     icon: Lock,
     title: 'Accurate & Secure Filing',
     description: 'Bank-level security with guaranteed accuracy on every tax return',
-    features: ['IRS E-File', 'Data Encryption', 'Accuracy Guarantee'],
+    features: ['Authorized IRS E-File', 'Data Encryption', 'Audit Protection'],
   },
   {
     icon: UserCheck,

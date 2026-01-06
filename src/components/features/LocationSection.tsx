@@ -36,7 +36,7 @@ export default function LocationSection() {
                   <div className="text-sm font-semibold text-muted-foreground mb-1">Address</div>
                   <div className="text-lg text-foreground">
                     5901 E Lancaster Suite 101<br />
-                    Fort Worth, TX
+                    Fort Worth, TX 76112
                   </div>
                 </div>
                 
