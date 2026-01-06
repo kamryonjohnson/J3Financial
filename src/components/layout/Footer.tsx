@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 text-sm">
-              Serving Fort Worth with integrity and experience since 2009.
+              Serving Fort Worth with integrity and experience since 2015.
             </p>
           </div>
 

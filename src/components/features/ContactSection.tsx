@@ -203,7 +203,7 @@ export default function ContactSection() {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold"
+                    className="w-full gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold"
                   >
                     {isSubmitting ? (
                       'Sending...'

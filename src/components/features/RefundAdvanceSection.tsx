@@ -37,7 +37,7 @@ export default function RefundAdvanceSection() {
               <Button 
                 size="lg"
                 asChild
-                className="gradient-accent text-white hover:opacity-90 transition-opacity shadow-gold"
+                className="gradient-accent text-primary hover:opacity-90 transition-opacity shadow-gold"
               >
                 <a href="#contact" className="flex items-center gap-2">
                   Check Eligibility
